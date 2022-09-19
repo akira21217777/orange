@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header start */
+/*  ********************************************   */
+
+header nav {
+    width: 1110px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+
+header nav ul li a {
+    font-size: 16px;
+    color: #4e4e4e;
+    margin: 22px;
+    transition: 0.5s;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+header nav ul li a :hover {
+    color: #dd4400;
+}
+
+header nav .logo {
+    font-size: 16px;
+    color: #dd4400;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+header nav .logo img {
+    margin: 22px;
+}
+
+header .menu {
+    background: #f8f8f8;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    box-shadow: 0 0 11px 0 #cec6bf;
+}
+
+
+
+header .fon img {
+    width: 100%;
+    filter: opacity(50%);
+}
+
+
+/*   **********************************************    */
+/*  header end  */
+
+
+/*  main start*/
+/*  ***********************************************    */
+
+
+main {
+    padding-top: 50px;
+    padding-bottom: 103px;
+}
+
+main .content {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .content .box {
+    width: 255px;
+    box-shadow: 0 0 15px 0 #ece0db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 21px 25px 21px;
+    box-sizing: border-box;
+}
+
+main .box a{
+   color: #f8f8f8; 
+   background: #dd4400;
+   font-size: 16px;
+   text-transform: uppercase;
+   width: 100%;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 24px;
+   transition: 0.5s;
+}
+
+
+main .box a:hover{
+    box-shadow: 0 0 15px 0 #4e4e4e;
+}
+
+main .box h2{
+    font-size: 18px;
+    color: #dd4400;
+    width: 130px;
+    text-align: center;
+    
+}
+
+main .box h2::after{
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to left, #ffffff00, #dd4400, #ffffff00 );
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+/*   ************************************   */
+/* main end  */
+
+/* section start */
+/* **************************** */
+
+section  .contant{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section  .contant  .left{
+    width: 722px;
+}
+
+section .contant h3{
+    font-size: 30px;
+    color: #5e5e5e;
+    margin-bottom: 53px;
+}
+
+section .contant  .left  p{
+    font-size: 18px;
+    color: #5e5e5e;
+    margin-bottom: 37px;
+}
+
+section .contant .left a{
+    width: 200px;
+    height: 40px;
+    background: #dd4400;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contant .left a::hover{
+    box-shadow: 0 0 15px 0 #dd4400;
+}
+
+section  .contant  .right{
+    width: 244px;
+    
+}
+
+section  .contant  .right  .box{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+section  .contant  .right a{
+    font-size: 14px;
+    color: #dd4400;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+section {
+    padding-bottom: 100px;
+}
+
+/* ******************************  */
+/* section end  */
+
+/* footer */
+/* ************************* */
+
+footer {
+ width: 100%;
+ background: #dd4400;
+ color: #fff;
+}
+footer .content{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 0;
+}
+
+
+footer p{
+    margin-top: 34px;
+}
+footer h4{
+    margin-top: 34px;
+}
+footer a{
+    margin-top: 34px;
+    color: #fff;
+    display: block;
+}
+
+
+
+
+
+/* *****************************  */
+/* footer end */
